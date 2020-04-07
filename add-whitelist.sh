@@ -17,7 +17,7 @@ if [ -z $DBHOST ] || [ -z $DBUSER ] || [ -z $DBPASS ] || [ -z $DFSPID ] || [ -r 
 then
     echo " "
     echo "Missing arguments"
-    echo "usage: ./add-whitelist.sh -h DBHOST -u DBUSER -p DBPASS -d DFSPID -i IPADDRESS"
+    echo "usage: ./add-whitelist.sh -h DBHOST -u DBUSER -p DBPASS -d DFSPID -i IPADDRESS_CIDR"
     echo " "
     exit
 fi
